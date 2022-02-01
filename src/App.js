@@ -30,7 +30,7 @@ export default function App() {
         <Route path="/blogging">
           <BlogIndexPage />
         </Route>
-        <Route path="/accha">
+        <Route path="/aksharshala">
           <Aksharsala/>
         </Route>
         <Route path="/team">
@@ -43,8 +43,8 @@ export default function App() {
           <EventLandingPage />  
          
         </Route>
-        <Route path="/aksharsala">
-          <Aksharsala />
+        <Route path="/registration">
+        <Aksharsala/>
         </Route>
       </Switch>
     </Router>
